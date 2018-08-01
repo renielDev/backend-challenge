@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/renielDev/backend-challenge/issues"
   },
-  "homepage": "https://github.com/renielDev/backend-challenge#readme"
+  "homepage": "https://github.com/renielDev/backend-challenge#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
 }
