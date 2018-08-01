@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
+var UserProfile = require('../controllers/UserProfileController');
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+/* GET users profile */
+router.get('/user_profile/:user_profile', UserProfile);
 
 module.exports = router;
